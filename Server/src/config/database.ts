@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-dotenv.config
+dotenv.config;
 const connectDB = async () => {
   try {
     await mongoose
-      .connect("mongodb://localhost:27017/PetCare", {
+      .connect("mongodb://localhost:27017/ISC301", {
         family: 4,
       })
       .then(() => {
